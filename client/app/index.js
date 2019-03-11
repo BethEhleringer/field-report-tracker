@@ -15,6 +15,7 @@ import Home from './components/Home/Home';
 import Home2 from './components/Home/Home2';
 import Home3 from './components/Home/Home3';
 import UsersDash from './components/UsersDash/UsersDash' ;
+import ReportForm from './components/ReportForm/ReportForm'
 
 import HelloWorld from './components/HelloWorld/HelloWorld';
 // Put any other imports below so that CSS from your
@@ -31,6 +32,7 @@ render((
         <Route path="/home2" component={Home2} />
         <Route path="/home3" component={Home3} />
         <Route path="/usersdash" component={UsersDash} />
+        <Route path="/reportform" component={ReportForm} />
 
 
         <Route component={NotFound}/>

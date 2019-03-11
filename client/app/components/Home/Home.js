@@ -330,6 +330,7 @@ class Home extends Component {
     return (
       <div>
   <p>Account</p>
+  <h2>Welcome, {this.state.signInEmail}!</h2>
   <Button size="small" color="secondary" onClick={this.logout}>Logout</Button>
 
 </div>
